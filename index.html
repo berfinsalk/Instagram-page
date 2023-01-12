@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <title>Instagram</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#" style="font-family:Courier; font-style: italic; font-weight: bold; font-size:x-large ;" >Instagram </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul>
+            <li style="list-style-type: none; width: 480px;" class="nav-item offset-md-7 mt-2"><input class="form-control mr-sm-2" type="search" placeholder="Ara" aria-label="Search ">
+            </li>
+            </ul>
+          <ul class="navbar-nav ml-auto">
+                
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><img height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt=""> <span class="sr-only">(current)</span></a>              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img height="30" width="30" src="https://cdns.iconmonstr.com/wp-content/releases/preview/2017/240/iconmonstr-facebook-messenger-1.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img height="30" width="30" src="https://www.freeiconspng.com/thumbs/compass-icon/compass-icon-27.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"><img  height="30" width="30" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSGsPHNDTRSXj2zKf1LQR3pvWEttfSMrN2yw&usqp=CAU" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled"><img style="border-radius: 50px; ;" height="35" width="35" src="img/vesikalık.jpg" alt=""></a>
+              </li>
+          </ul>
+       
+        </div>
+      </nav>
+      <div  class="container mt-5">
+        <div class="row">
+            <div  style="border-style: outset; border-color: rgb(241, 238, 238);"class="col-8 mt-3">
+              <div class="row mt-4">
+                <div class="col-2">
+                  <img  style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="https://www.tpfund.org/wp-content/uploads/2019/07/logo-1.png" alt="">
+                  <p>kodluyoruz</p>
+                </div> 
+                <div class="row">
+                  <div class="col-2 mr-2">
+                    <img  style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="data:image/png;base64,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" alt="">
+                    <p>tincercad</p>
+                  </div> 
+                  <div class="row">
+                    <div class="col-2 ml-1 mr-2">
+                      <img style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="https://wenajans.com/images/AndroidUygulamasi/android-resim.jpg" alt="">
+                      <p>android</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-2 ml-3 mr-2">
+                        <img style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="https://kodluyoruz.github.io/Kodluyoruz-iOS-Bootcamp/bg_phone.png" alt="">
+                        <p>iphone</p>
+                      </div>  
+                      <div class="row">
+                        <div class="col-2 ml-4 mr-4">
+                          <img  style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="https://www.tpfund.org/wp-content/uploads/2019/07/logo-1.png" alt="">
+                          <p>patika</p>
+                        </div>  
+                        <div class="row">
+                          <div class="col-2 ml-4 mr-5">
+                            <img  style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="https://kodluyoruz.org/wp-content/uploads/2022/05/a0d5d919e567c1ca122529eea4a6350ac2997198-926x749-1.webp" alt="">
+                            <p>bootstrap</p>
+                          </div>  
+                          <div class="row">
+                            <div class="col-2 mx-2">
+                              <img  style="border-radius: 50px; ; border-style: solid; border-color: red;" height="50" width="50" src="https://www.odtuzgarage.com/wp-content/uploads/meetup-1.png" alt="">
+                              <p>threeman</p>
+                            </div>  
+                          </div>                
+                        </div> 
+                      </div>           
+                    </div>             
+                  </div>            
+                </div>            
+              </div>
+            
+              <!-- post1 -->
+              <div style="border-style: inset; border-color: rgb(241, 238, 238);" class="row mt-1 p-2">
+                
+                <img class="mr-2" style="border-radius: 50px;" height="50" width="50" src="img/vesikalık.jpg" alt="">
+                <p class="mt-2" style="font-weight: bold;">berfinsalkk <b class="">...</b> </p>                
+                <img class="img-fluid mt-1" height="310" width="850"  src="https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?cs=srgb&dl=pexels-pixabay-258109.jpg&fm=jpg" alt="">                                           
+                <img height="50" width="735" src="img/img.png" alt="">
+                <img class="ml-3" style="border-radius: 50px; " height="25" width="25" src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt="">
+                <div class="">
+                <p><b class="ml-2">giobolkvadze ve 246 kişi</b> beğendi</p>   
+                <p ><b>berfinsalkk</b> Bu harika fotoğrafı sizlerle paylaşıyor olmaktan mutluluk duyuyorum :)
+                <br>
+                <b style="color: gray; font-size: medium;">350 yorumu gör </b> 
+                <br>
+                <b style="color: black;">guneskara</b> Renkler şahane 
+                <br>
+                <b style="color: black;">yusuf_56</b> Tebrik ederim seni :)) 
+                <br>
+                <b style="color: gray; font-size: small;">8 SAAT ÖNCE</b> 
+                <br>
+                <div style=" border-color: rgb(207, 205, 205);">
+                 <p>Yorum Ekle... 
+                  <b class="m-9" style="color: rgb(96, 146, 255);">Paylaş</b>
+                </p> 
+                </div>  
+                </p>            
+                </div>
+              </div>
+              
+            
+            <!-- post2 -->
+            <div style="border-style: inset; border-color: rgb(241, 238, 238);" class="row mt-3 p-2">
+                
+              <img class="mr-2" style="border-radius: 50px;" height="50" width="50" src="https://picsum.photos/id/237/200/300" alt="">
+              <p class="mt-2" style="font-weight: bold;">aysekara23 <b class="">...</b> </p>                
+              <img class="img-fluid mt-1" height="310" width="850"  src="https://www.camhotel.com.tr/uploads/ulkemizin-dort-bir-yanindan-guzel-manzara-fotograflari.jpg" alt="">                                           
+              <img height="50" width="735" src="img/img.png" alt="">
+              <img class="ml-3" style="border-radius: 50px;" height="25" width="25" src="https://picsum.photos/id/237/200/300" alt="">
+              <div class="">
+              <p><b class="ml-2">senasalkk56 ve 41.554 kişi</b> beğendi</p>   
+              <p ><b>aysekara23</b> İstanbul'un harika manzarasını eşsiz renklerle birleştirmek...
+              <br>
+              <b style="color: gray; font-size: medium;">150 yorumu gör </b> 
+              <br>
+              <b style="color: black;">_merveelpe</b> Manzara çooooooooook güzelll 
+              <br>
+              <b style="color: black;">aysenurakgul23</b> Bu görsel için tebrik ederim seni :)) 
+              <br>
+              <b style="color: gray; font-size: small;">10 SAAT ÖNCE</b> 
+              <br>
+              <div style=" border-color: rgb(207, 205, 205);">
+               <p>Yorum Ekle...
+                <b class="m-9" style="color: rgb(96, 146, 255);">Paylaş</b>
+              </p> 
+              </div>  
+              </p>            
+              </div>
+            </div>
+
+            <!-- post3 -->
+            <div style="border-style: inset; border-color: rgb(241, 238, 238);" class="row mt-3 p-2">
+                
+              <img class="mr-2" style="border-radius: 50px;" height="50" width="50" src="https://picsum.photos/200/300?grayscale" alt="">
+              <p class="mt-2" style="font-weight: bold;">yıldızaksoy_1 <b class="">...</b> </p>                
+              <img class="img-fluid mt-1" height="310" width="850"  src="https://i2.milimaj.com/i/milliyet/75/0x0/6059c1cf55427e11044c709c.jpg" alt="">                                           
+              <img height="50" width="735" src="img/img.png" alt="">
+              <img class="ml-3" style="border-radius: 50px;" height="25" width="25" src="https://picsum.photos/id/227/200/300" alt="">
+              <div class="">
+              <p><b class="ml-2">ahmetgoren ve 554 kişi</b> beğendi</p>   
+              <p ><b>yıldızaksoy_1</b> İnsan ruhunu dinlendiren, huzur veren bir manzara
+              <br>
+              <b style="color: gray; font-size: medium;">50 yorumu gör </b> 
+              <br>
+              <b style="color: black;">eylülakar</b> Fotoğraf çooooooooook güzelll 
+              <br>
+              <b style="color: black;">34baran_</b> Bu görsel için tebrik ederim seni :)) 
+              <br>
+              <b style="color: gray; font-size: small;">12 SAAT ÖNCE</b> 
+              <br>
+              <div style=" border-color: rgb(207, 205, 205);">
+               <p>Yorum Ekle...
+                <b class="m-9" style="color: rgb(96, 146, 255);">Paylaş</b>
+              </p> 
+              </div>  
+              </p>            
+              </div>
+            </div>
+
+            </div>
+            <div style="border-style:dotted ; border-color: rgb(241, 238, 238);" class="col-3 bg-light mt-4 mx-3 ">
+                <div class="row">
+                    <img class="mr-2 mt-2" style="border-radius: 50px;" height="50" width="50" src="img/vesikalık.jpg" alt="">
+                <p class="mt-2" style="font-weight: bold;">berfinsalkk</p>                 
+                </div>
+                <div class="row mt-2">               
+                  <p style="color:gray ;">Senin İçin Önerilenler </p> <p class="ml-3"><b> Tümünü gör</b></p>
+                </div>
+                <div class="row">
+                  <img style="border-radius: 50px; "  height="25" width="25" src="https://cdn-icons-png.flaticon.com/128/7641/7641727.png" alt=""> 
+                  <p style="font-weight: bold;" class="mx-1">kodluyoruzbeyin</p>
+                  <p class="ml-2" style="color:blue ;">Takip et</p>
+                </div>
+                <div class="row">
+                  <img style="border-radius: 50px; "  height="25" width="25" src="https://cdn-icons-png.flaticon.com/256/8587/8587309.png" alt=""> 
+                  <p style="font-weight: bold;" class="mx-1">codecrafcom</p>
+                  <p class="ml-2" style="color:blue ;">Takip et</p>
+                </div>
+                <div class="row">
+                  <img style="border-radius: 50px; "  height="25" width="25" src="https://cdn-icons-png.flaticon.com/256/8587/8587365.png" alt=""> 
+                  <p style="font-weight: bold;" class="mx-1">navlumgor</p>
+                  <p class="ml-2" style="color:blue ;">Takip et</p>
+                </div>
+                <div class="row">
+                  <img style="border-radius: 50px; "  height="25" width="25" src="https://cdn-icons-png.flaticon.com/256/8587/8587301.png" alt=""> 
+                  <p style="font-weight: bold;" class="mx-1">profesyrıe</p>
+                  <p class="ml-2" style="color:blue ;">Takip et</p>
+                </div>
+                <div class="row">
+                  <img style="border-radius: 50px; "  height="25" width="25" src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt=""> 
+                  <p style="font-weight: bold;" class="mx-1">kodluyoruz junior</p>
+                  <p class="ml-2" style="color:blue ;">Takip et</p>
+                </div>
+                
+                  <p style="color:rgb(208, 207, 207) ;">Bu sitenin tüm hakları saklıdır.Kodluyoruz patikası için hazırlanmıştır.</p>
+                  <p style="color:rgb(208, 207, 207);">2022 Instagram Page</p>
+                
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
